@@ -60,7 +60,7 @@ tests/                   automated tests
 - **`Candidate`, `BomLine`, `BuildPlan`, `BendingResult`**: results of the material ranking, bill of materials, plan and strength check.
 
 ## Reflection
-**Hardest problem:** getting trustworthy measurements out of a photo. Edge pixels sit half a pixel inside the true edge, so holes measured too small and parts too thin, and pixel rounding left tiny fake chamfers at corners. I fixed it by testing against a synthetic photo with known sizes, adding a half-pixel offset correction and a step that removes edges shorter than 1 mm. After that the test part measured within about 0.5 mm.
+**Hardest problem:** getting trustworthy measurements out of a photo. Edge pixels sit half a pixel inside the true edge, so holes measured too small and parts too thin, and pixel rounding left tiny fake chamfers at corners. I successfully managed to fix it by testing against a synthetic photo with known sizes, adding a half-pixel offset correction and a step that removes edges shorter than 1 mm. After that test part measured within about 0.5 mm.
 
 **With two more weeks:** plain-English editing ("make it thicker and add two M5 holes") using an LLM that can only produce the validated edit actions, an explain mode with real-life analogies, proper FEA instead of the beam estimate, and curved parts and multi-photo scanning.
 
