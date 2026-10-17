@@ -1,0 +1,7 @@
+name,density_g_cm3,yield_mpa,youngs_gpa,price_per_kg_usd,processes,outdoor_ok,max_temp_c,derate,laser_max_mm
+PLA,1.24,50,3.5,22,3d_print,no,55,0.5,0
+PETG,1.27,45,2.1,25,3d_print,yes,70,0.5,0
+Acrylic (PMMA),1.18,65,3.2,9,laser_cut;cnc;hand_tools,yes,70,0.5,10
+Birch plywood,0.68,30,9,3,laser_cut;cnc;hand_tools,no,100,0.6,6
+Aluminium 6061,2.70,240,69,9,cnc;hand_tools,yes,150,0.8,0
+Mild steel,7.85,250,200,3,cnc;hand_tools,no,300,0.8,0
